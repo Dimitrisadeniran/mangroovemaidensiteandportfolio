@@ -10,12 +10,12 @@
     <link rel="apple-touch-icon" href="725b756a69a7d4c235070e51acd85560.png" sizes="180*180"> 
 </head>
 <body>
-<h1 class="heading">MANGROOVE</h1>
-<div id="beats"><a href="">BEATS</a></div>
-<div id="bits"><a href="">BITS</a></div>
-<div id="bites"><a href="">BITES</a></div>
-<footer>CONTACT ME</footer>
-</body>
+  <h1 class="heading">MANGROOVE</h1>
+  <div id="beats"><a href="">BEATS</a></div>
+  <div id="bits"><a href="">BITS</a></div>
+  <div id="bites"><a href="">BITES</a></div>
+  <footer>CONTACT ME</footer>
+  </body>
 </html>
 
 
