@@ -7,7 +7,10 @@
     <title>Mangroove pioneering website.</title>
 </head>
 <body>
-<h1>MANGROOVE</h1>
+<h1 class="heading">MANGROOVE</h1>
+<div><a href="">BEATS</a></div>
+<div><a href="">BITS</a></div>
+<div><a href="">BITES</a></div>
 <footer>CONTACT ME</footer>
 </body>
 </html>
