@@ -8,9 +8,9 @@
 </head>
 <body>
 <h1 class="heading">MANGROOVE</h1>
-<div><a href="">BEATS</a></div>
-<div><a href="">BITS</a></div>
-<div><a href="">BITES</a></div>
+<div id="beats"><a href="">BEATS</a></div>
+<div id="bits"><a href="">BITS</a></div>
+<div id="bites"><a href="">BITES</a></div>
 <footer>CONTACT ME</footer>
 </body>
 </html>
