@@ -1,0 +1,154 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Container holding the images */
+.bayo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* Each image */
+.godsic img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Header navigation */
+.ray {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Homepage link */
+.homepage {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    line-height: 1.5;
+    transition: background-color 0.3s ease;
+}
+
+.homepage:hover {
+    background-color: #f0f0f0;
+}
+
+/* Contact Us section */
+#CONTACT {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+#CONTACT:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+/* Logo container sections */
+#beats, #bites, #bits {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for logo container sections */
+#beats:hover, #bites:hover, #bits:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Links inside logo container sections */
+#beats a, #bites a, #bits a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Hover effect for links inside logo container sections */
+#beats a:hover, #bites a:hover, #bits a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+
+
+#CONTACT:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+/* Common styles for logo container sections */
+#beats, #bites, #bits {
+    margin-top: 10px;
+    padding: 0 20px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for logo container sections */
+#beats:hover, #bites:hover, #bits:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for links inside logo container sections */
+#beats a, #bites a, #bits a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Hover effect for links inside logo container sections */
+#beats a:hover, #bites a:hover, #bits a:hover {
+    text-decoration: underline;
+}
+/* CSS */
+.social-media {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #007bff;
+}
