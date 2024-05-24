@@ -61,7 +61,7 @@ body {
 }
 
 /* Contact Us section */
-#CONTACT {
+#contact {
     margin-top: 20px;
     text-decoration: none;
     font-size: 1rem;
@@ -69,12 +69,12 @@ body {
     transition: color 0.3s ease;
 }
 
-#CONTACT:hover {
+#contact:hover {
     color: #0056b3;
     cursor: pointer;
 }
 
-/* Logo container sections */
+/* Common styles for logo container sections */
 #beats, #bites, #bits {
     margin-top: 20px;
     padding: 20px;
@@ -84,7 +84,6 @@ body {
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect for logo container sections */
 #beats:hover, #bites:hover, #bits:hover {
     background-color: #f0f0f0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -94,48 +93,15 @@ body {
 #beats a, #bites a, #bits a {
     text-decoration: none;
     color: #007bff;
+    transition: color 0.3s ease;
 }
 
-/* Hover effect for links inside logo container sections */
 #beats a:hover, #bites a:hover, #bits a:hover {
     text-decoration: underline;
     color: #0056b3;
 }
 
-
-
-#CONTACT:hover {
-    color: #333;
-    cursor: pointer;
-}
-
-/* Common styles for logo container sections */
-#beats, #bites, #bits {
-    margin-top: 10px;
-    padding: 0 20px;
-    border-radius: 8px;
-    background-color: #f0f0f0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Hover effect for logo container sections */
-#beats:hover, #bites:hover, #bits:hover {
-    background-color: #e0e0e0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Styles for links inside logo container sections */
-#beats a, #bites a, #bits a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-/* Hover effect for links inside logo container sections */
-#beats a:hover, #bites a:hover, #bits a:hover {
-    text-decoration: underline;
-}
-/* CSS */
+/* Social media links */
 .social-media {
     margin-top: 20px;
     display: flex;
