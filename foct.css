@@ -1,4 +1,4 @@
-/* Global styles */
+/* Global Styles */
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -7,14 +7,14 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Container holding the images */
+/* Container Holding the Images */
 .bayo {
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-/* Each image */
+/* Each Image */
 .godsic img {
     width: 100%;
     height: auto;
@@ -22,7 +22,7 @@ body {
     z-index: -1;
 }
 
-/* Header navigation */
+/* Header Navigation */
 .ray {
     position: absolute;
     top: 20px;
@@ -41,7 +41,7 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Homepage link */
+/* Homepage Link */
 .homepage {
     padding: 10px 20px;
     background-color: #fff;
@@ -60,7 +60,7 @@ body {
     background-color: #f0f0f0;
 }
 
-/* Contact Us section */
+/* Contact Us Section */
 #contact {
     margin-top: 20px;
     text-decoration: none;
@@ -74,7 +74,7 @@ body {
     cursor: pointer;
 }
 
-/* Common styles for logo container sections */
+/* Common Styles for Logo Container Sections */
 #beats, #bites, #bits {
     margin-top: 20px;
     padding: 20px;
@@ -89,7 +89,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Links inside logo container sections */
+/* Links Inside Logo Container Sections */
 #beats a, #bites a, #bits a {
     text-decoration: none;
     color: #007bff;
@@ -101,7 +101,7 @@ body {
     color: #0056b3;
 }
 
-/* Social media links */
+/* Social Media Links */
 .social-media {
     margin-top: 20px;
     display: flex;
@@ -118,3 +118,4 @@ body {
 .social-media a:hover {
     color: #007bff;
 }
+
